@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucemonjo - Datos Escolares del Estado de México</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #b71c1c;
+            color: white;
+            padding: 1em 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffccbc;
+            border-bottom: 2px solid #ffccbc;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ffebee;
+        }
+        .hero h1 {
+            font-size: 2.8em;
+            color: #b71c1c;
+        }
+        .hero p {
+            font-size: 1.3em;
+            color: #555;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .service-card {
+            background-color: white;
+            margin: 15px;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .service-card h2 {
+            color: #b71c1c;
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            font-size: 1em;
+            color: #666;
+        }
+        .mission {
+            background-color: #ffebee;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .mission h2 {
+            color: #b71c1c;
+        }
+        footer {
+            background-color: #b71c1c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer a {
+            color: #ffccbc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Sucemonjo</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#mision">Misión</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="sesion.php">inicio/registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Recopilación de Datos Escolares</h1>
+        <p>Proporcionamos información precisa sobre escuelas del Estado de México.</p>
+    </section>
+
+    <section class="services" id="servicios">
+        <div class="service-card">
+            <h2>Estadísticas Educativas</h2>
+            <p>Accede a datos detallados sobre el rendimiento académico.</p>
+        </div>
+        <div class="service-card">
+            <h2>Base de Datos Actualizada</h2>
+            <p>Información completa sobre instituciones educativas del Estado de México.</p>
+        </div>
+        <div class="service-card">
+            <h2>Consultoría Educativa</h2>
+            <p>Asesoramiento basado en análisis de datos escolares.</p>
+        </div>
+    </section>
+
+    <section class="mission" id="mision">
+        <h2>Nuestra Misión</h2>
+        <p>Facilitar el acceso a datos escolares confiables para mejorar la educación en el Estado de México.</p>
+    </section>
+
+    <footer id="contacto">
+        <p>&copy; 2024 Sucemonjo. Todos los derechos reservados. | <a href="#contacto">Contáctanos</a></p>
+    </footer>
+
+</body>
+</html>
